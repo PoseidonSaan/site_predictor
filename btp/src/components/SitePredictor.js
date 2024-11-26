@@ -18,7 +18,7 @@ const SitePredictor = () => {
 
       try {
         // Send POST request to the Flask backend with the input data
-        const response = await axios.post("http://127.0.0.1:5000/predict", {
+        const response = await axios.post("http://13.232.89.166:5000/predict", {
           factory_x: xCoordinate,
           factory_y: yCoordinate,
           required_capacity: requiredCapacity,
